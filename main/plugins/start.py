@@ -50,8 +50,8 @@ async def source(event):
     await event.edit(source_text,
                     buttons=[[
                          Button.url("sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/tamilsupport"),
-                         Button.url("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="https://t.me/tamilbots")]])
-                         
+                         Button.url("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="https://t.me/tamilbots"),
+                         Button.inline("ʙᴀᴄᴋ", data="menu")]])
                     
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
 async def help(event):
