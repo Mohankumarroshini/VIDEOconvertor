@@ -33,17 +33,17 @@ async def start(event):
     tag = f'[{event.sender.first_name}](tg://user?id={event.sender_id})'
     await Drone.send_message(int(ACCESS_CHANNEL), f'{tag} started the BOT')
     
-CT_NOOB = "helll"
+CT_NOOB = "edit this line your self it you need here username also well pm me"
 
 @Drone.on(events.callbackquery.CallbackQuery(data="menu"))
 async def menu(event):
     await event.edit(CT_NOOB,
                           buttons = [[
-                   Button.url("sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/tamilsupport"),
-                   Button.url("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="https://t.me/tamilbots")],
+                   Button.url("ɪɴғᴏ", data="info"),
+                   Button.url("ɴᴏᴛɪᴄᴇ", data="notice")],
                    [
-                      Button.inline("PLUGINS", data="plugins"),
-                      Button.inline("RESTART", data="restart")],
+                      Button.inline("Supports", data="source"),
+                      Button.inline("help", data="help")],
                    [
                     Button.inline("BACK", data="menu")]])
     
