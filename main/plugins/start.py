@@ -45,7 +45,7 @@ async def menu(event):
                       Button.inline("sᴜᴘᴘᴏʀᴛ", data="source"),
                       Button.inline("ʜᴇʟᴘ", data="help")],
                    [
-                    Button.inline("ʙᴀᴄᴋ", data="plugins")]])
+                    Button.inline("ʙᴀᴄᴋ", data="START_TEXT")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
@@ -69,14 +69,15 @@ async def source(event):
 async def help(event):
     await event.edit('**👥HELP & SETTINGS**',
                     buttons=[[
-                         Button.inline("SET THUMB", data="sett"),
-                         Button.inline("REM THUMB", data='remt')],
+                         Button.inline("sᴇᴛ ᴛʜᴜᴍʙ", data="sett"),
+                         Button.inline("ʀᴇᴍ ᴛʜᴜᴍʙ", data='remt')],
                          [
-                         Button.inline("PLUGINS", data="plugins"),
-                         Button.inline("RESTART", data="restart")],
-                         [Button.url("SUPPORT", url="https://t.me/tamilsupport")],
+                         Button.inline("ᴘʟᴜɢɪɴs", data="plugins"),
+                         Button.inline("ʀᴇsᴛᴀʀᴛ", data="restart")],
+                         [Button.url("sᴜᴘᴘᴏʀᴛ", url="https://t.me/tamilsupport")],
                          [
-                         Button.inline("BACK", data="menu")]])
+                         Button.inline("ʙᴀᴄᴋ", data="menu")]])
+				       
     
 @Drone.on(events.callbackquery.CallbackQuery(data="plugins"))
 async def plugins(event):
