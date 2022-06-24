@@ -45,7 +45,7 @@ async def menu(event):
                       Button.inline("Supports", data="source"),
                       Button.inline("help", data="help")],
                    [
-                    Button.inline("BACK", data="menu")]])
+                    Button.inline("BACK", data="plugins")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
