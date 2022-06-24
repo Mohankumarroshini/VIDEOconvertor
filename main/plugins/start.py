@@ -39,8 +39,8 @@ CT_NOOB = "edit this line your self it you need here username also well pm me"
 async def menu(event):
     await event.edit(CT_NOOB,
                           buttons = [[
-                   Button.url("ɪɴғᴏ", data="info"),
-                   Button.url("ɴᴏᴛɪᴄᴇ", data="notice")],
+                   Button.inline("ɪɴғᴏ", data="info"),
+                   Button.inline("ɴᴏᴛɪᴄᴇ", data="notice")],
                    [
                       Button.inline("Supports", data="source"),
                       Button.inline("help", data="help")],
