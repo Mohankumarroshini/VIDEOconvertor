@@ -33,7 +33,7 @@ async def start(event):
     tag = f'[{event.sender.first_name}](tg://user?id={event.sender_id})'
     await Drone.send_message(int(ACCESS_CHANNEL), f'{tag} started the BOT')
     
-CT_NOOB = "edit this line your self it you need here username also well pm me"
+CT_NOOB = "ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ\n\nᴍᴀᴅᴇ ʙʏ @TamilBots"
 
 @Drone.on(events.callbackquery.CallbackQuery(data="menu"))
 async def menu(event):
@@ -42,10 +42,10 @@ async def menu(event):
                    Button.inline("ɪɴғᴏ", data="info"),
                    Button.inline("ɴᴏᴛɪᴄᴇ", data="notice")],
                    [
-                      Button.inline("Supports", data="source"),
-                      Button.inline("help", data="help")],
+                      Button.inline("sᴜᴘᴘᴏʀᴛ", data="source"),
+                      Button.inline("ʜᴇʟᴘ", data="help")],
                    [
-                    Button.inline("BACK", data="plugins")]])
+                    Button.inline("ʙᴀᴄᴋ", data="plugins")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
@@ -74,7 +74,7 @@ async def help(event):
                          [
                          Button.inline("PLUGINS", data="plugins"),
                          Button.inline("RESTART", data="restart")],
-                         [Button.url("SUPPORT", url=f"{SUPPORT_LINK}")],
+                         [Button.url("SUPPORT", url="https://t.me/tamilsupport")],
                          [
                          Button.inline("BACK", data="menu")]])
     
