@@ -32,7 +32,7 @@ from main.plugins.ssgen import screenshot
 from LOCAL.localisation import source_text, SUPPORT_LINK
 
 #Don't be a MF by stealing someone's hardwork.
-forcesubtext = f"Hey there!To use this bot you've to join @{FORCESUB_UN}.\n\nAlso join @DroneBots."
+forcesubtext = f"Hey there!To use this bot you've to join @{FORCESUB_UN}.\n\nAlso join @TamilSupport."
 
 @Drone.on(events.NewMessage(incoming=True,func=lambda e: e.is_private))
 async def compin(event):
@@ -268,7 +268,7 @@ async def fcomp(event):
         index = process1.index(f'{event.sender_id}')
         last = timer[int(index)]
         present = time.time()
-        return await event.answer(f"You have to wait {300-round(present-float(last))} seconds more to start a new process!", alert=True)
+        return await event.answer(f"You have to wait {120-round(present-float(last))} seconds more to start a new process!", alert=True)
     button = await event.get_message()
     msg = await button.get_reply_message()
     if not os.path.isdir("encodemedia"):
@@ -295,7 +295,7 @@ async def hcomp(event):
         index = process1.index(f'{event.sender_id}')
         last = timer[int(index)]
         present = time.time()
-        return await event.answer(f"You have to wait {300-round(present-float(last))} seconds more to start a new process!", alert=True)
+        return await event.answer(f"You have to wait {120-round(present-float(last))} seconds more to start a new process!", alert=True)
     button = await event.get_message()
     msg = await button.get_reply_message()
     if not os.path.isdir("encodemedia"):
