@@ -11,9 +11,9 @@ CHANNEL_LINK = "https://t.me/TamilBots"
 
 SUPPORT_LINK = "https://t.me/TamilSuppory"
 
-info_text = " ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [ᴍsᴅ](https://t.me/my_dear_lightbright)\n\nᴡʀɪᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ᴛᴇʟᴇᴛʜᴏɴ.\n\nᴛʜɪs ʙᴏᴛ ɪs ʙʏ : @TamilBots\nsᴜᴘᴘᴏʀᴛ : @TamilSupport\n\nV1.4"   
+info_text = " ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @My_Dear_Lightbrihht\n\nᴡʀɪᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ᴛᴇʟᴇᴛʜᴏɴ.\n\nᴛʜɪs ʙᴏᴛ ɪs ʙʏ : @TamilBots\n\nsᴜᴘᴘᴏʀᴛ : @TamilSupport"   
 
-help_text = """**v1.4**
+help_text = """**ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ**
 
 •`Encode` - encode your video into different lib format or resolution
 
