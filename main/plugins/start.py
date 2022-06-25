@@ -28,7 +28,7 @@ from LOCAL.localisation import info_text, spam_notice, help_text, DEV, source_te
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                              [Button.inline("ᴍᴇɴᴜ.", data="menu")]
+                              [Button.inline("ᴍᴇɴᴜ", data="menu")]
                               ])
     tag = f'[{event.sender.first_name}](tg://user?id={event.sender_id})'
     await Drone.send_message(int(ACCESS_CHANNEL), f'{tag} started the BOT')
@@ -45,7 +45,7 @@ async def menu(event):
                       Button.inline("sᴜᴘᴘᴏʀᴛ", data="source"),
                       Button.inline("ʜᴇʟᴘ", data="help")],
                    [
-                    Button.inline("ᴅᴇᴠ", url="https://t.me/my_dear_lightbright")]])
+                    Button.url("ᴅᴇᴠ", url="https://t.me/my_dear_lightbright")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
