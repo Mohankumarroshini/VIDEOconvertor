@@ -11,7 +11,7 @@ CHANNEL_LINK = "https://t.me/TamilBots"
 
 SUPPORT_LINK = "https://t.me/TamilSuppory"
 
-info_text = " ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @My_Dear_Lightbrihht\n\nᴡʀɪᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ᴛᴇʟᴇᴛʜᴏɴ.\n\nᴛʜɪs ʙᴏᴛ ɪs ʙʏ : @TamilBots\n\nsᴜᴘᴘᴏʀᴛ : @TamilSupport"   
+info_text = " ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @My_Dear_Lightbright\n\nᴡʀɪᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ᴛᴇʟᴇᴛʜᴏɴ.\n\nᴛʜɪs ʙᴏᴛ ɪs ʙʏ : @TamilBots\n\nsᴜᴘᴘᴏʀᴛ : @TamilSupport"   
 
 help_text = """**ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ**
 
