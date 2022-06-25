@@ -45,7 +45,7 @@ async def menu(event):
                       Button.inline("sᴜᴘᴘᴏʀᴛ", data="source"),
                       Button.inline("ʜᴇʟᴘ", data="help")],
                    [
-                    Button.inline("ʙᴀᴄᴋ", data="menu")]])
+                    Button.inline("ᴅᴇᴠ", url="https://t.me/my_dear_lightbright")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
