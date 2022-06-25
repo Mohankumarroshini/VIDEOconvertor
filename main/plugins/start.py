@@ -45,7 +45,7 @@ async def menu(event):
                       Button.inline("sᴜᴘᴘᴏʀᴛ", data="source"),
                       Button.inline("ʜᴇʟᴘ", data="help")],
                    [
-                    Button.inline("ʙᴀᴄᴋ", data="START_TEXT")]])
+                    Button.inline("ʙᴀᴄᴋ", data="menu")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
