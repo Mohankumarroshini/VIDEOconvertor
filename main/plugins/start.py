@@ -36,7 +36,7 @@ async def start(event):
 
 @Drone.on(events.callbackquery.CallbackQuery(data="menu"))
 async def menu(event):
-    await event.edit(f"hey there! [{event.sender.first_name}](tg://user?id={event.sender_id})\nᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ\n\nᴍᴀᴅᴇ ʙʏ @TamilBots"
+    await event.edit(f"ʜᴇʏ ᴛʜᴇʀᴇ! [{event.sender.first_name}](tg://user?id={event.sender_id})\nɪ ᴀᴍ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ\n\nᴍᴀᴅᴇ ʙʏ @TamilBots"
 ,
                           buttons = [[
                    Button.inline("ɪɴғᴏ", data="info"),
